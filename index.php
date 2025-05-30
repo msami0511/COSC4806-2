@@ -1,8 +1,6 @@
-<html>
-  <head>
-    <title>PHP Test</title>
-  </head>
-  <body>
-    <?php echo '<p>Hello World</p>'; ?> 
+<?php
+session_start();
 
-</html>
+header('Location: login.php');
+exit;
+?>
